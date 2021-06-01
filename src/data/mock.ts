@@ -1,68 +1,106 @@
 export const Cervejas = [
   {
     titulo: 'Baiana',
+    descricao:'Dessa vez o cupido foi rápido',
+    toast:
+      'Dessa vez o cupido foi rápido',
+      img:
+      'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
+  },
+  {
+    titulo: 'Baiana1',
     descricao:
-      'A Baiana Lager é a nossa cerveja mais democrática.Leve, refrescante e fácil de beber, foi criada para "comer água" com a galera sem perder a qualidade da cerveja artesanal.',
-    img:
+      'Dessa vez o cupido foi rápido',
+    toast:
+      'Dessa vez o cupido foi rápido',
+      img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
     titulo: 'Vienna',
-    descricao: 'Descrição teste',
+    descricao: 'Quando você vai perceber? Vienna espera por você. - Billy Joel',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
     titulo: 'Lager',
     descricao: 'Descrição teste',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
     titulo: 'CNTP',
-    descricao: 'Descrição teste',
+    descricao: 'Eita,cupido ligeiro.',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
     titulo: 'Acapulco',
-    descricao: 'Descrição teste',
+    descricao: 'Se você não vai até Acapulco, ele vem até você.',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
-    titulo: 'variascervejas',
-    descricao: 'Descrição teste',
+    titulo: 'Saison',
+    descricao: 'Essa vai te deixar embriagado de amor.',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
-    titulo: 'variascervejas',
-    descricao: 'Descrição teste',
+    titulo: 'Weiss',
+    descricao: 'Melhor que encontrar a metade da laranja, é encontrar sua Proa inteira!',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
     titulo: 'SOUR',
-    descricao: 'Descrição teste',
+    descricao: 'Nosso cupido é eficiente.',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
-    titulo: 'Mallampar',
-    descricao: 'Descrição teste',
+    titulo: 'SOUR1',
+    descricao: 'Nosso cupido é eficiente.',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
-    titulo: 'BlackIPA',
-    descricao: 'Descrição teste',
+    titulo: 'Mallampati',
+    descricao: 'Melhor que encontrar a metade da laranja, é encontrar sua Proa inteira!',
+    toast:
+      'Dessa vez o cupido foi rápido',
+    img:
+      'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
+  },
+  {
+    titulo: 'Blackipa',
+    descricao: 'Acredita em amor à primeira vista?',
+    toast:
+      'Dessa vez o cupido foi rápidoDessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
   {
     titulo: 'RIS',
-    descricao: 'Descrição teste',
+    descricao: 'O cupido pode até não ser rápido, mas é certeiro!',
+    toast:
+      'Dessa vez o cupido foi rápido',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   }

@@ -6,7 +6,7 @@ interface Props {
 }
 
 export const Container = styled.div<Props>`
-  background: #4AA3E0;
+  background: ${prop => prop.theme.colors.primary};
   border: none;
   color: white;
   transition: all 0.5s;
