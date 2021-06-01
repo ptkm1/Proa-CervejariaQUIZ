@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
@@ -12,21 +13,25 @@ export const Container = styled.div`
 export const Cervejas = styled.div`
     overflow: auto;
     padding: 15px;
-    width: 70%;
-    height: 100vh;
+    width: 80%;
+    height: 65vh;
+    position: absolute;
+    top: 10px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
 
     ::-webkit-scrollbar {
-      /* display: none; */
+      display: none;
     }
 `
 
 export const CervejaBloco = styled.div`
-  width: 400px;
-  height: 60%;
+  width: 80%;
+  height: max-content;
+  margin-bottom: 50px;
   display: flex;
-  flex-direction: column;
+  flex-direction: flex;
   align-items: flex-start;
 `

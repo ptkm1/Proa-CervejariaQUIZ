@@ -6,6 +6,7 @@ export const CervejariaContainer = styled.div`
 
   display: flex;
   flex-direction: row;
+  
 
   justify-content: flex-start;
   padding: 15em;
@@ -15,7 +16,8 @@ export const CervejariaContainer = styled.div`
 
   img {
     border: solid #B9348B 1px;
-    width: 33.33%;
+    width: 400px;
+    height: 400px;
     z-index: 999999;
     box-shadow: 0px 0px 0px 4px #E9428C;
   }
@@ -43,22 +45,45 @@ export const CervejariaContainer = styled.div`
     }
   }
 
+  @media (max-width:826px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    img { 
+      width: 200px;
+      height: 200px;
+      margin-top: -80px;
+    }
+      padding: 0;
+      font-size: 15px;
+    }
+
 `;
 
 export const CervejariaInfo = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 50px;
+  width: 100vw;
 
-  h1 {
-    font-size: 2em;
+  h3 {
+    font-size: 1.3em;
     margin-bottom: 30px;
     color: #E9428C;
   }
 
   p {
-    font-size: 1.5em;
+    font-size: 0.8em;
+    letter-spacing: -1px;
     color: #3D3D3D;
+  }
+
+  a { 
+    width: max-content;
+    height: max-content;
+    padding: 15px;
   }
 `;
 

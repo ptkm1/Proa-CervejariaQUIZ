@@ -6,7 +6,8 @@ import { Container, RowGrid, TitlePart } from '../styles/pages/Home'
 
 import Angel1 from '../assets/svgs/angel1.svg'
 import Angel2 from '../assets/svgs/angel2.svg'
-import Logo from '../assets/logo.svg'
+import Logo from '../assets/logo.png'
+import Barco from '../assets/barco.png'
 
 const Home: React.FC = () => {
   return (
@@ -32,8 +33,11 @@ const Home: React.FC = () => {
               <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
             <Link href="/SOUR">Espumante</Link>
       </RowGrid>
-      <div style={{ position: 'absolute', zIndex: 9999, top: '80vh', width: '50px' }}>
-        <Logo />
+      <div style={{ position: 'absolute', zIndex: 9999, top: '80vh' }}>
+        <img src={Logo} alt="" />
+      </div>
+      <div style={{ position: 'absolute', zIndex: 9999, top: '77vh', left: '75vw' }}>
+        <img src={Barco} alt="" />
       </div>
     </Container>
   )

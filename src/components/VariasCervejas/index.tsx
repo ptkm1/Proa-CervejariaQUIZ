@@ -1,6 +1,9 @@
-import React from 'react'
+import { time } from 'console'
+import Link from 'next/link'
+import React, { useContext, useEffect, useRef } from 'react'
+import { NotifyContext } from '../../contexts/notify'
 import { CervejasMock2 } from '../../data/mockVariasCervejas'
-import { CervejariaContainer, CervejariaInfo } from '../../styles/pages/Cerveja'
+import { CervejariaContainer, CervejariaInfo, Toasty } from '../../styles/pages/Cerveja'
 import Botao from '../Botao/Botao'
 import { Container, Cervejas, CervejaBloco } from './Styles'
 
@@ -12,12 +15,14 @@ const VariasCervejas: React.FC = () => {
       <Cervejas>
         {
         CervejasMock2.map((e: any) => (
+
           <CervejaBloco>
             <img style={{ width: '350px' }} src={e.img} />
-            <CervejariaInfo style={{ marginLeft: 0 }}>
-              <h1 style={{ marginLeft: 0 }}>{e.titulo}</h1>
+            <CervejariaInfo style={{ marginLeft: 50 }}>
+              <h3 style={{ marginLeft: 0 }}>{e.titulo}</h3>
               <p style={{ marginLeft: 0 }}>{e.descricao}</p>
-              <Botao>Experimente!</Botao>
+              <p style={{ marginLeft: 0 }}>{e.details}</p>
+              <Link style={{ fontSize: 30 }} href="/">Marque um encontro</Link>
             </CervejariaInfo>
             </CervejaBloco>
         ))
