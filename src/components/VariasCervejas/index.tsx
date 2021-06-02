@@ -1,10 +1,8 @@
-import { time } from 'console'
 import Link from 'next/link'
 import React, { useContext, useEffect, useRef } from 'react'
-import { NotifyContext } from '../../contexts/notify'
 import { CervejasMock2 } from '../../data/mockVariasCervejas'
 import { CervejariaContainer, CervejariaInfo, Toasty } from '../../styles/pages/Cerveja'
-import Botao from '../Botao/Botao'
+
 import { Container, Cervejas, CervejaBloco } from './Styles'
 
 

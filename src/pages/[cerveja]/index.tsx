@@ -1,7 +1,6 @@
-import { Router ,useRouter } from 'next/dist/client/router';
+import { useRouter } from 'next/dist/client/router';
 import Link from 'next/link';
 import React, { useContext, useEffect, useRef } from 'react';
-import Botao from '../../components/Botao/Botao';
 import VariasCervejas from '../../components/VariasCervejas';
 import { Cervejas } from '../../data/mock';
 import { CervejariaContainer, CervejariaInfo, Toasty } from '../../styles/pages/Cerveja';
@@ -19,15 +18,7 @@ const CervejaPage: React.FC = () => {
   const toasty = useRef<HTMLDivElement>()
 
 
-  // useEffect(()=>{ 
-  //   if(toasty){
-  //     setTimeout(()=>{
-  //       toasty.current.style.transition = '3s'
-  //       toasty.current.style.opacity = '0'
-  //     },7000)
-  //   }
-    
-  //  },[])
+
 
 
   return (
