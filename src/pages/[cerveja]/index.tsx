@@ -5,12 +5,11 @@ import Botao from '../../components/Botao/Botao';
 import VariasCervejas from '../../components/VariasCervejas';
 import { Cervejas } from '../../data/mock';
 import { CervejariaContainer, CervejariaInfo, Toasty } from '../../styles/pages/Cerveja';
-import { Container } from '../../styles/pages/Home';
+import { Container, MobileAngel } from '../../styles/pages/Home';
 
 import SleepAngel from '../../assets/svgs/sleepangel.svg'
 import { NotifyContext } from '../../contexts/notify';
 import ToastComponent from '../../components/Toasty';
-import { MobileAngel } from './resetcss';
 
 const CervejaPage: React.FC = () => {
 
