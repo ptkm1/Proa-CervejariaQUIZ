@@ -33,12 +33,6 @@ const Home: React.FC = () => {
               <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
             <Link href="/SOUR">Espumante</Link>
       </RowGrid>
-      <div style={{ position: 'absolute', zIndex: 9999, top: '80vh' }}>
-        <img src={Logo} alt="" />
-      </div>
-      <div style={{ position: 'absolute', zIndex: 9999, top: '77vh', left: '75vw' }}>
-        <img src={Barco} alt="" />
-      </div>
     </Container>
   )
 }

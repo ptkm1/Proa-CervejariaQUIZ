@@ -9,6 +9,8 @@ import { Container } from '../../styles/pages/Home';
 
 import SleepAngel from '../../assets/svgs/sleepangel.svg'
 import { NotifyContext } from '../../contexts/notify';
+import ToastComponent from '../../components/Toasty';
+import { MobileAngel } from './resetcss';
 
 const CervejaPage: React.FC = () => {
 
@@ -18,14 +20,15 @@ const CervejaPage: React.FC = () => {
   const toasty = useRef<HTMLDivElement>()
 
 
-  useEffect(()=>{ 
- 
-      setTimeout(()=>{
-        toasty.current.style.transition = '3s'
-        toasty.current.style.opacity = '0'
-      },5000)
+  // useEffect(()=>{ 
+  //   if(toasty){
+  //     setTimeout(()=>{
+  //       toasty.current.style.transition = '3s'
+  //       toasty.current.style.opacity = '0'
+  //     },7000)
+  //   }
     
-   },[])
+  //  },[])
 
 
   return (
@@ -38,6 +41,7 @@ const CervejaPage: React.FC = () => {
       cerveja === 'variascervejas' ? (
       <> 
       <Toasty ref={toasty}>Você deu 3 matchs, mas não se preocupe! A proa não é ciumenta</Toasty>
+      {/* <ToastComponent ref={toasty}>Você deu 3 matchs, mas não se preocupe! A proa não é ciumenta</ToastComponent> */}
         <VariasCervejas />
       </>
         ) : (
@@ -47,16 +51,20 @@ const CervejaPage: React.FC = () => {
         <>
         <CervejariaContainer>
           <img src={e.img} />
-          <Toasty ref={toasty}> {e.toast} </Toasty>
+          {/* <Toasty ref={toasty}> {e.toast} </Toasty> */}
+          <ToastComponent>
+            {e.toast}
+          </ToastComponent>
           <CervejariaInfo>
-            <h1>{e.titulo}</h1>
+            <h1>{e.cerveja}</h1>
             <p>{e.descricao}</p>
-            <Link href="/">Marcar Encontro</Link>
+            <p>{e.abv}</p>
+            <Link href={`https://api.whatsapp.com/send?phone=557196805838&text=Marcar encontro com a Proa ${e.cerveja}.`}>Marcar Encontro</Link>
           </CervejariaInfo>
         </CervejariaContainer>
-      <div id="angelBG" style={{ position: 'fixed', top: '40%', right: '20%' }}>
+      <MobileAngel id="angelBG">
         <SleepAngel />
-      </div>
+      </MobileAngel>
       </>
       )) 
       )

@@ -89,9 +89,19 @@ export const TitlePart = styled.div`
 export const RowGrid = styled.div`
   display: flex;
   align-items: center;
-  margin-top: -20%;
+  margin-top: -300px;
 
   @media (max-width:826px) {
     flex-direction: column;
   }
+`
+
+export const Footer = styled.div`
+position: absolute;
+z-index: 9999; 
+
+`
+
+export const ImgResponsive = styled.img`
+width: 50%;
 `

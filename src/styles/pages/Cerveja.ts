@@ -68,14 +68,15 @@ export const CervejariaInfo = styled.div`
   margin-left: 50px;
   width: 100vw;
 
-  h3 {
+  h1 {
     font-size: 1.3em;
     margin-bottom: 30px;
     color: #E9428C;
   }
 
   p {
-    font-size: 0.8em;
+    font-size: 0.9em;
+    width: 60%;
     letter-spacing: -1px;
     color: #3D3D3D;
   }
@@ -96,4 +97,28 @@ export const Toasty = styled.div`
   padding: 5px;
 
   background: #B9348B;
+`
+
+export const Toasty1 = styled.div`
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  width: 250px;
+  height: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 50;
+
+  background: #B9348B;
+`
+export const Square = styled.div`
+  position: absolute;
+  top: 23%;
+  right: 25%;
+  width: 50px;
+  height: 50px;
+  transform: rotate(40deg);
+  border-radius: 5px;
+  background: #B9348B;
+  z-index: 49;
 `

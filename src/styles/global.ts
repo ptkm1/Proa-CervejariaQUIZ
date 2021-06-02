@@ -13,4 +13,17 @@ export default createGlobalStyle`
     color: ${props => props.theme.colors.text};
     font: 400 16px 'Overpass Mono', monospace;
   }
+
+  #responsive {
+    @media (max-width: 768px) {
+      border: solid;
+      img {
+        width: 150px;
+      }
+
+      .barco {
+        left: 50vw;
+      }
+    }
+  }
 `
