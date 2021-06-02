@@ -19,9 +19,9 @@ const VariasCervejas: React.FC = () => {
           <CervejaBloco>
             <img style={{ width: '350px' }} src={e.img} />
             <CervejariaInfo style={{ marginLeft: 50 }}>
-              <h3 style={{ marginLeft: 0 }}>{e.titulo}</h3>
-              <p style={{ marginLeft: 0 }}>{e.descricao}</p>
-              <p style={{ marginLeft: 0 }}>{e.details}</p>
+              <h3 style={{ marginLeft: 0, color: '#E9428C' }}>{e.titulo}</h3>
+              <p style={{ marginLeft: 0, color: '#3D3D3D' }}>{e.descricao}</p>
+              <p style={{ marginLeft: 0, color: '#3D3D3D' }}>{e.details}</p>
               <Link style={{ fontSize: 30 }} href="/">Marque um encontro</Link>
             </CervejariaInfo>
             </CervejaBloco>

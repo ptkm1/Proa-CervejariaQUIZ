@@ -11,7 +11,7 @@ const ClaroOuEscuro: React.FC = () => {
       </TitlePart>
       <div style={{ position: 'fixed', top: '48px', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}} id="workingcupid">
         <AngelBeer />
-        <h3 style={{ color: '#3D3D3D', margin: '0px 0px', fontSize: '30px', fontWeight: 400, marginLeft: 50}}>Em busca do seu par...</h3>
+        <h3 style={{ color: '#E9428C', margin: '0px 0px', fontSize: '30px', fontWeight: 400, marginLeft: 50}}>Em busca do seu par...</h3>
       </div>
 
       <RowGrid>
