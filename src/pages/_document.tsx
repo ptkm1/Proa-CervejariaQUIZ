@@ -58,7 +58,7 @@ export default class MyDocument extends Document {
           <div
             style={{
               position: 'absolute',
-              top: '75vh',
+              top: '74vh',
               display: 'flex',
               width: '100%',
               justifyContent: 'center'

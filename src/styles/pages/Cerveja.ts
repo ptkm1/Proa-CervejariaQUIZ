@@ -44,6 +44,13 @@ export const CervejariaContainer = styled.div`
     }
   }
 
+  @media (max-width: 1445px) {
+    img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+
   @media (max-width: 826px) {
     flex-direction: column;
     justify-content: center;
@@ -74,6 +81,8 @@ export const CervejariaInfo = styled.div`
     margin-top: -60px;
     margin-bottom: -15px;
     color: #e9428c;
+    background: #f9f9f9;
+    z-index: 30;
   }
 
   p {
@@ -153,6 +162,7 @@ export const Toasty1 = styled.div`
   font-size: 9px;
   font-size: 100%;
 
+
   
   @media (max-width: 826px) {
     width: 100px;
@@ -172,6 +182,12 @@ export const Toasty1 = styled.div`
     svg { 
       width: 60px;
     }
+  }
+
+  /* MOBILE (motog4 | iphone x) */
+  @media (max-width: 645px) {
+    right: 20px;
+    top: 10px;
   }
 `
 export const Square = styled.div`
@@ -202,10 +218,16 @@ export const Square = styled.div`
     top: 65px;
     right: 300px;
     @media (max-width:826px) {
-      right: 200px;
+      right: 190px;
       top: 50px;
       width: 20px;
     }
+  }
+
+   /* MOBILE (motog4 | iphone x) */
+   @media (max-width: 645px) {
+    right: 50px;
+    top: 50px;
   }
 `
 

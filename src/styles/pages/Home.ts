@@ -73,8 +73,8 @@ export const Container = styled.div`
   background-size: 100% 40%;
   background-position: center bottom;
 
-  @media (max-width:826px) {
-    background-size: 100% 20%;
+  @media (max-width:640px) {
+    background-size: 100% 30%;
   }
   
 `
@@ -106,6 +106,24 @@ export const Header = styled.div`
   justify-content: center;
   position: absolute;
   top: 50px;
+
+  svg { 
+
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  }
+
+
+  @keyframes example {
+  0%   {margin-top: 10px;}
+  25%  {margin-bottom: 0px;}
+  50%  {margin-top: 10px;}
+  75%  {margin-top: 0px;}
+  100% {margin-top: 10px;}
+  }
+  
+
   h3 {
     font-size: 30px;
     color: #3D3D3D; 
@@ -137,14 +155,15 @@ export const RowGrid = styled.div`
 
   @media (max-width:826px) {
     margin-top: 50px;
+    flex-direction: column;
 
     a { 
       font-size: 15px;
-      width: 120px;
-      height: 40px;
+      width: 140px;
+      height: 60px;
       text-align: center;
       font-weight: bold;
-      font-size: 12px;
+      font-size: 14px;
       /* height: max-content; */
     }
   }
@@ -164,6 +183,18 @@ export const MobileAngel = styled.div`
   position: absolute; // change to fixed
   margin-top: -50px; // change to 240px
   right: 20%; // change to 20%
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0.4s;
+  animation-iteration-count: infinite;
+
+  @keyframes example {
+  0%   {margin-top: 10px;}
+  25%  {margin-bottom: 0px;}
+  50%  {margin-top: 10px;}
+  75%  {margin-top: 0px;}
+  100% {margin-top: 10px;}
+  }
 
   @media (max-width: 768px) {
       right: 70px;
@@ -184,5 +215,10 @@ export const MobileAngel = styled.div`
 
   @media (max-height: 740px) {
     right: 200px;
+  }
+
+  @media (max-width: 640px) {
+    right: 20px;
+    top: 80px;
   }
 `;
