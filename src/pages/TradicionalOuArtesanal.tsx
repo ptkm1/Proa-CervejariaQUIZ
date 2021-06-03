@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Botao from '../components/Botao/Botao';
-import { Container, RowGrid, TitlePart } from '../styles/pages/Home';
+import { Container, Header, RowGrid, TitlePart } from '../styles/pages/Home';
 import AngelBeer from '../assets/svgs/nossoscupidos.svg'
 
 const Cerveja: React.FC = () => {
@@ -10,10 +10,10 @@ const Cerveja: React.FC = () => {
       <TitlePart>
         <h1 id="titulo"></h1>
       </TitlePart>
-      <div style={{ position: 'fixed', top: '50px', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}} id="workingcupid">
+      <Header style={{ position: 'fixed', top: '50px', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}} id="workingcupid">
         <AngelBeer />
-        <h3 style={{ color: '#3D3D3D', margin: '0px 0px', fontSize: '30px', fontWeight: 400, marginLeft: 50}}>Nossos cupidos estão trabalhando...</h3>
-      </div>
+        <h3 style={{ color: '#3D3D3D', margin: '0px 0px', fontWeight: 400, marginLeft: 50}}>Nossos cupidos estão trabalhando...</h3>
+      </Header>
 
       <RowGrid>
       <Link href="/ChoppLeveOuEncorpado">Tradicional</Link>

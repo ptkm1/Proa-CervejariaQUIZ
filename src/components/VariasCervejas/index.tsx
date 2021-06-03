@@ -1,28 +1,30 @@
 import Link from 'next/link'
-import React, { useContext, useEffect, useRef } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
+// import { ModalContext } from '../../contexts/modal'
 import { CervejasMock2 } from '../../data/mockVariasCervejas'
 import { CervejariaContainer, CervejariaInfo, Toasty } from '../../styles/pages/Cerveja'
+import Modal from '../Modal'
 
-import { Container, Cervejas, CervejaBloco } from './Styles'
+import { Container, Cervejas, RefazendoBloco } from './Styles'
 
 
 const VariasCervejas: React.FC = () => {
+
+  // const { ShowModal, setShowModal } = useContext(ModalContext)
 
   return (
     <Container>
       <Cervejas>
         {
-        CervejasMock2.map((e: any) => (
-
-          <CervejaBloco>
-            <img style={{ width: '350px' }} src={e.img} />
-            <CervejariaInfo style={{ marginLeft: 50 }}>
-              <h3 style={{ marginLeft: 0, color: '#E9428C' }}>{e.titulo}</h3>
-              <p style={{ marginLeft: 0, color: '#3D3D3D' }}>{e.descricao}</p>
-              <p style={{ marginLeft: 0, color: '#3D3D3D' }}>{e.details}</p>
-              <Link style={{ fontSize: 30 }} href="/">Marque um encontro</Link>
-            </CervejariaInfo>
-            </CervejaBloco>
+          CervejasMock2.map((e: any) => (
+            <>
+          <Link href={`${e.url}`} >
+          <RefazendoBloco key={e.title}>
+              <img src={e.img} />
+              <h3>{e.titulo}</h3>
+            </RefazendoBloco>
+            </Link>
+            </>
         ))
         }
       </Cervejas>

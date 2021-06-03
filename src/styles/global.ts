@@ -14,16 +14,26 @@ export default createGlobalStyle`
     font: 400 16px 'Overpass Mono', monospace;
   }
 
-  #responsive {
-    @media (max-width: 768px) {
-      border: solid;
-      img {
-        width: 150px;
+      #reduce {
+        right: 50px;
+        position: absolute;
       }
 
-      .barco {
-        left: 50vw;
+  @media (max-width: 768px) {
+      #reduce {
+        width: 40px;
+        right: 10px;
+        bottom: 0px;
       }
+
+      }
+  #responsive {
+    @media (max-width: 768px) {
+      img {
+        margin-top: 110px;
+        width: 100px;
+      }
+
     }
   }
 `

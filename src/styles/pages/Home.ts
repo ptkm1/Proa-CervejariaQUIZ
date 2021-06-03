@@ -72,6 +72,10 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: 100% 40%;
   background-position: center bottom;
+
+  @media (max-width:826px) {
+    background-size: 100% 20%;
+  }
   
 `
 
@@ -79,11 +83,47 @@ export const TitlePart = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 5em;
+  margin: 50px;
+  margin-bottom: -50px;
   
-  h1 {
-    font-size: 1em;
+  #rosa {
+        color: #E9428C;
+        margin-bottom: 45px;
+      }
+      h1 { font-size: 35px; color: gray; 
+    }
+  
+  @media (max-width: 768px) {
+    h1 { font-size: 1rem; color: gray;  text-align: center; }
   }
+`
+
+export const Header = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+  h3 {
+    font-size: 30px;
+    color: #3D3D3D; 
+    margin: 0px 0px;
+    font-weight: 400; 
+    margin-left: 50;
+  }
+
+  @media (max-width: 726px) {
+    padding: 15px;
+    h3 { 
+      font-size: 21px;
+      text-align: justify;
+      width: 50%;
+
+    }
+  }
+  
 `
 
 export const RowGrid = styled.div`
@@ -91,8 +131,11 @@ export const RowGrid = styled.div`
   align-items: center;
   margin-top: -300px;
 
+  
+
   @media (max-width:826px) {
     flex-direction: column;
+    margin-top: 50px;
   }
 `
 
@@ -102,18 +145,16 @@ z-index: 9999;
 
 `
 
-export const ImgResponsive = styled.img`
-width: 50%;
-`
-
 export const MobileAngel = styled.div`
   position: fixed;
   top: 40%;
   right: 20%;
 
   @media (max-width: 768px) {
+      right: 80px;
+      top: 90px;
     svg { 
-    width: 90px;
-  }
+      width: 60px;
+    }
   }
 `;

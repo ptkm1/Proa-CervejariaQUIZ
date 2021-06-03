@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const CervejariaContainer = styled.div`
   width: 100%;
@@ -6,7 +6,6 @@ export const CervejariaContainer = styled.div`
 
   display: flex;
   flex-direction: row;
-  
 
   justify-content: flex-start;
   padding: 15em;
@@ -15,20 +14,20 @@ export const CervejariaContainer = styled.div`
   margin-left: -100px;
 
   img {
-    border: solid #B9348B 1px;
+    border: solid #b9348b 1px;
     width: 400px;
     height: 400px;
     z-index: 999999;
-    box-shadow: 0px 0px 0px 4px #E9428C;
+    box-shadow: 0px 0px 0px 4px #e9428c;
   }
 
-  a{
+  a {
     width: 250px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 22px;
     color: white;
     background-color: ${prop => prop.theme.colors.primary};
@@ -37,7 +36,7 @@ export const CervejariaContainer = styled.div`
     margin-left: 0px;
 
     .rosa {
-      background-color: #B9348B;
+      background-color: #b9348b;
     }
 
     :hover {
@@ -45,22 +44,23 @@ export const CervejariaContainer = styled.div`
     }
   }
 
-  @media (max-width:826px) {
+  @media (max-width: 826px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 0px;
     margin-left: 0px;
-    img { 
-      width: 200px;
-      height: 200px;
-      margin-top: -80px;
+    img {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: 40px;
+      left: 15px;
     }
-      padding: 0;
-      font-size: 15px;
-    }
-
-`;
+    padding: 0;
+    font-size: 15px;
+  }
+`
 
 export const CervejariaInfo = styled.div`
   display: flex;
@@ -71,22 +71,48 @@ export const CervejariaInfo = styled.div`
   h1 {
     font-size: 1.3em;
     margin-bottom: 30px;
-    color: #E9428C;
+    color: #e9428c;
   }
 
   p {
     font-size: 0.9em;
     width: 60%;
     letter-spacing: -1px;
-    color: #3D3D3D;
+    color: #3d3d3d;
   }
 
-  a { 
+  a {
     width: max-content;
     height: max-content;
     padding: 15px;
   }
-`;
+
+  @media (max-width: 768px) {
+    margin-left: 0px;
+    position: absolute;
+    top: 250px;
+    p {
+      font-size: 10px;
+      white-space: normal;
+      letter-spacing: -0.3px;
+      font-weight: 600;
+      text-align: justify;
+      line-height: 20px;
+
+      width: 90%;
+      margin-left: 10px;
+    }
+    a {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+    h1 {
+      margin-bottom: -15px;
+      margin-left: 10px;
+      line-height: 20px;
+    }
+  }
+`
 
 export const Toasty = styled.div`
   position: absolute;
@@ -96,7 +122,7 @@ export const Toasty = styled.div`
   height: max-content;
   padding: 5px;
 
-  background: #B9348B;
+  background: #b9348b;
 `
 
 export const Toasty1 = styled.div`
@@ -108,8 +134,14 @@ export const Toasty1 = styled.div`
   padding: 10px;
   border-radius: 10px;
   z-index: 50;
+  background: #b9348b;
+  font-size: 9px;
 
-  background: #B9348B;
+  @media (max-width: 826px) {
+    width: 100px;
+    height: 80px;
+    top: 50px;
+  }
 `
 export const Square = styled.div`
   position: absolute;
@@ -119,6 +151,19 @@ export const Square = styled.div`
   height: 50px;
   transform: rotate(40deg);
   border-radius: 5px;
-  background: #B9348B;
+  background: #b9348b;
   z-index: 49;
+  @media (max-width: 826px) {
+    width: 50px;
+    top: 80px;
+  }
+`
+
+export const Paragraph = styled.div`
+  height: 300px;
+  width: 100%;
+  overflow: scroll;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `

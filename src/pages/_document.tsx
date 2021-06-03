@@ -10,7 +10,7 @@ import Document, {
 import { ServerStyleSheet } from 'styled-components'
 import Logo from '../assets/logo.png'
 import Barco from '../assets/barco.png'
-import { Footer, ImgResponsive } from '../styles/pages/Home'
+import { Footer } from '../styles/pages/Home'
 
 export default class MyDocument extends Document {
   static async getInitialProps(
@@ -41,7 +41,6 @@ export default class MyDocument extends Document {
   }
 
   render(): JSX.Element {
-
     return (
       <Html lang="pt">
         <Head>
@@ -57,14 +56,21 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <div style={{ position: 'absolute', top: "75vh", display: 'flex', width: "100%", justifyContent: 'center' }}>
-
+          <div
+            style={{
+              position: 'absolute',
+              top: '75vh',
+              display: 'flex',
+              width: '100%',
+              justifyContent: 'center'
+            }}
+          >
             <Footer id="responsive">
-          <ImgResponsive src={Logo} alt="" />
-        </Footer>
-        <Footer id="responsive">
-          <ImgResponsive  src={Barco} alt="" style={{ position: "absolute", left: "80vw" }} />
-        </Footer>
+              <img id="reduce1" src={Logo} alt="" />
+            </Footer>
+            <Footer id="responsive">
+              <img id="reduce" src={Barco} alt="" />
+            </Footer>
           </div>
         </body>
       </Html>

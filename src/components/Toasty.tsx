@@ -11,7 +11,7 @@ const ToastComponent: React.FC = ({children, ...rest}: any) => {
   //     setTimeout(()=>{
   //       toasty.current.style.transition = '3s'
   //       toasty.current.style.opacity = '0'
-  //       toastysquare.current.style.transition = '3s'
+  //       toastysquare.current.style.transition = '2s'
   //       toastysquare.current.style.opacity = '0'
   //     },5000)
     

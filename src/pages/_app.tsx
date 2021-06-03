@@ -4,14 +4,14 @@ import { ThemeProvider } from 'styled-components'
 
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'
-import NotifyProvider from '../contexts/notify'
+import ModalProvider from '../contexts/modal'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ThemeProvider theme={theme}>
-      <NotifyProvider>
+      <ModalProvider>
         <Component {...pageProps} />
-      </NotifyProvider>
+      </ModalProvider>
       <GlobalStyle />
     </ThemeProvider>
   )

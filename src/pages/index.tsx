@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { Container, RowGrid, TitlePart } from '../styles/pages/Home'
+import { Container, Header, RowGrid, TitlePart } from '../styles/pages/Home'
 
 import Angel1 from '../assets/svgs/angel1.svg'
 import Angel2 from '../assets/svgs/angel2.svg'
@@ -15,18 +15,18 @@ const Home: React.FC = () => {
       <Head>
         <title>Homepage</title>
       </Head>
+      <Header>
 
-      <div style={{ position: 'fixed', top: '10%', left: '20%' }}>
-        <Angel1 />
-      </div>
-      <TitlePart style={{ position: 'fixed', top: '20%', zIndex: 99999 }} >
-        <h1 style={{ fontSize: 40 }} id="titulo">Descubra qual Proa é seu </h1>
-        <h1 style={{ color: '#E9428C', fontWeight: 'bold', fontSize: '40px' }}>Par Perfeito</h1>
+          <Angel1  />
+
+      <TitlePart>
+        <h1>Descubra qual Proa é seu </h1>
+        <h1 id="rosa">Par Perfeito</h1>
       </TitlePart>
 
-      <div style={{ position: 'fixed', top: '10%', right: '20%', zIndex: 99999 }}>
         <Angel2 />
-      </div>
+
+      </Header>
 
       <RowGrid style={{ marginTop: '-10%' }}>
             <Link href="/TradicionalOuArtesanal">Cerveja</Link>

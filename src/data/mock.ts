@@ -35,7 +35,7 @@ export const Cervejas = [
     descricao: 'Cerveja de coloração acobreada com tons avermelhados, sabor de malte evidente remetendo a pão levemente torrado. É uma cerveja equilibrada no qual o amargor dos lúpulos nobres alemães lidam de forma elegante com as notas adocicadas do malte. ABV 4.5% IBU 20',
     abv: 'ABV 4.5% IBU 20',
     toast:
-      'Dessa vez o cupido foi rápido',
+      'Sou ligeiro!',
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
@@ -125,8 +125,33 @@ export const Cervejas = [
     descricao: 'De coloração negra, aromas de café expresso e chocolate meio amargo que também podem ser percebidos no sabor, além de um torrado equilibrado. Essa RIS foi feita para ser envelhecida em barris de carvalho americanos, porém alguns litros foram reservados pela proprietária. De corpo médio e 10% de álcool bem inseridos, é fácil de beber, logo tenha cuidado! ',
     abv: 'ABV 10% IBU 60',
     toast:
-      'O cupido pode até não ser rápido, mas é certeiro!',
+      'Eu posso até não ser rápido, mas sou certeiro!',
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FRIS%20RESERVA%20DA%20PROPRIETARIA.png?alt=media&token=07a4e697-3c75-4b6a-9fc2-2c28cac1444e'
-  }
+  },
+
+  {
+    titulo:'aipa',
+    cerveja: 'CARRIE NATION (American IPA)',
+    descricao: 'Carrie Nation, membro do movimento pré-prohibition, ficou famosa por destruir barris de cerveja com seu machado. Essa American India Pale Ale é uma cerveja intensa, feita para fazer Carrie Nation se revirar no caixão. Com características marcantes dos lúpulos americanos, aromas e sabores cítricos e de frutas amarelas se unem ao amargor assertivo equilibrando-se com a carga de maltes utilizada. Cerveja viva e lupulada para ser consumida fresca.',
+    abv: 'ABV 6,2 IBU 56',
+    img:
+      'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
+  },
+  {
+    titulo:'dipa',
+    cerveja: 'BARRIL DOBRADO (Double IPA)',
+    descricao: 'A Barril Dobrado é uma double IPA perigosamente fácil de beber. Intensa, mas sem perder o equilíbrio, com a combinação dos lúpulos Columbus, Cascade, Zeus, Azzaca e Amarillo.',
+    abv: 'ABV 7.5% IBU 70',
+    img:
+      'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
+  },
+  {
+    titulo:'iris',
+    cerveja: 'Iris',
+    descricao: 'Furacões com nomes de mulheres tendem a ser mais destrutivos que aqueles com nomes masculinos, porque costumam ser levados menos a sério e, consequentemente, há menos preparativos para enfrentá-los. Iris é o nosso furacão em forma de American Pale Ale, simples mas surpreendente. Com uma combinação improvável dos lúpulos BRU-1, Cascade, Azacca e Zeus, traz uma complexidade de aromas e sabores com predominância de abacaxi, manga e lichia. Cerveja viva e lupulada, para ser consumida fresca.',
+    abv: 'ABV 5,9% IBU 39',
+    img:
+      'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FIRIS%20APA.png?alt=media&token=68c021f5-eda8-4666-b7d0-d2bb6f9fdedf'
+  },
 ]
