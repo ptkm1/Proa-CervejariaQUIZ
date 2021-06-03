@@ -6,6 +6,7 @@ export const Cervejas = [
     abv:'ABV 4.5% IBU 9',
     toast:
       'Mereço um aumento!',
+    toastSize: 19,
       img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fbaiana.png?alt=media&token=c8202c53-fc4e-4777-8c20-bfbd3cf9c9d5'
   },
@@ -16,16 +17,18 @@ export const Cervejas = [
     abv:'ABV 4.5% IBU 9',
     toast:
       'O que é que a baiana tem?',
+    toastSize: 19,
       img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fbaiana.png?alt=media&token=c8202c53-fc4e-4777-8c20-bfbd3cf9c9d5'
   },
   {
     titulo: 'Vienna',
-    cerveja: '',
-    descricao: 'Quando você vai perceber? Vienna espera por você. - Billy Joel',
+    cerveja: 'Vienna Lager',
+    descricao: 'Cerveja de coloração acobreada com tons avermelhados, sabor de malte evidente remetendo a pão levemente torrado. É uma cerveja equilibrada no qual o amargor dos lúpulos nobres alemães lidam de forma elegante com as notas adocicadas do malte. ABV 4.5% IBU 20',
     abv: 'ABV 4.5% IBU 20',
     toast:
       'Quando você vai perceber? Vienna espera por você. - Billy Joel',
+    toastSize: 17,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FVIENNA.png?alt=media&token=6e25c403-d555-4161-ba7c-3c7c6b5e7d3a'
   },
@@ -36,6 +39,7 @@ export const Cervejas = [
     abv: 'ABV 4.5% IBU 20',
     toast:
       'Sou ligeiro!',
+    toastSize: 19,
     img:
       'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
   },
@@ -46,6 +50,7 @@ export const Cervejas = [
     abv: 'ABV 4.7% IBU 20',
     toast:
       'Sou ligeiro!',
+    toastSize: 19,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FCNTP.png?alt=media&token=756dbca2-099f-47a2-af8e-a20214ffc643'
   },
@@ -56,6 +61,7 @@ export const Cervejas = [
     abv: 'ABV: 4.4% IBU 20',
     toast:
       'Se você não vai até Acapulco, ele vem até você.',
+    toastSize: 17,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FACAPULCO.png?alt=media&token=c8a23932-4a83-47c5-883e-2a23300d1585'
   },
@@ -66,6 +72,7 @@ export const Cervejas = [
     abv: 'Essa cerveja evolui com o tempo. ABV 5.4% IBU 20',
     toast:
       'Essa vai te deixar embriagado de amor.',
+    toastSize: 17,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FSAISON%20DE%20BRAGANCA.png?alt=media&token=a53aafea-332a-45ca-8a07-a2c6fc874079'
   },
@@ -76,6 +83,7 @@ export const Cervejas = [
     abv: 'ABV 4.8% IBU 9',
     toast:
       'Melhor que encontrar a metade da laranja, é encontrar sua Proa inteira!',
+    toastSize: 16,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fweiss%20frishctick.png?alt=media&token=3ea5cb54-dc54-4641-b4af-01fe5f3e6651'
   },
@@ -86,6 +94,7 @@ export const Cervejas = [
     abv: 'ABV 3,5% IBU 6',
     toast:
       'Sou rápido, meu bem.',
+    toastSize: 19,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fsour.png?alt=media&token=681736b2-4eb4-452b-ad79-2fbff032e165'
   },
@@ -96,6 +105,7 @@ export const Cervejas = [
     abv: 'ABV 3,5% IBU 6',
     toast:
       'Acredita em amor à primeira vista? E em amor ao primeiro gole?',
+    toastSize: 17,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fsour.png?alt=media&token=681736b2-4eb4-452b-ad79-2fbff032e165'
   },
@@ -106,6 +116,7 @@ export const Cervejas = [
     abv: 'ABV 4.4% IBU 31',
     toast:
       'Melhor que encontrar a metade da laranja, é encontrar sua Proa inteira!',
+    toastSize: 16,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FMALLAMPATI.png?alt=media&token=3d2c27d9-d350-4b7e-bc45-9a8b74d5a2d8'
   },
@@ -116,6 +127,7 @@ export const Cervejas = [
     abv: 'ABV 6.2% IBU 60',
     toast:
       'Acredita em amor à primeira vista? E em amor ao primeiro gole?',
+      toastSize: 9,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FBLACK%20CARRIE%20NATION.png?alt=media&token=999a916c-56e5-42e8-a52a-e3f515ca3bb8'
   },
@@ -126,6 +138,7 @@ export const Cervejas = [
     abv: 'ABV 10% IBU 60',
     toast:
       'Eu posso até não ser rápido, mas sou certeiro!',
+    toastSize: 17,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FRIS%20RESERVA%20DA%20PROPRIETARIA.png?alt=media&token=07a4e697-3c75-4b6a-9fc2-2c28cac1444e'
   },

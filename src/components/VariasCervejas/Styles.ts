@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Paragraph } from '../../styles/pages/Cerveja';
 
 export const Container = styled.div`
   width: 100%;
@@ -31,9 +32,10 @@ export const Cervejas = styled.div`
       position: relative;
       justify-content: space-between;
       width: 100%;
+      height: 68vh;
       flex-direction: row;
       flex-wrap: wrap;
-
+      margin-top: -125px;
     }
 `
 
@@ -88,7 +90,10 @@ export const RefazendoBloco = styled.div`
     }
   h3 { 
     color: #E9428C;
-    font-size: 2rem;
+    font-size: 1.3rem;
+  }
+  p { 
+    color: black;
   }
 
   img { 
@@ -107,4 +112,109 @@ export const VariasCervejasInfo = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+`
+
+export const RefazendoBloco2 = styled.div`
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  margin: 15px;
+  margin-left: 0;
+  margin-top: 0px;
+  z-index: 51;
+
+  h3 { 
+    color: #E9428C;
+    font-size: 1.3rem;
+  }
+  h3:first-of-type {
+    margin-top: 15px;
+  }
+  ${Paragraph} { 
+    color: #3D3D3D;
+    
+    font-size: 10px;
+    font-weight: 400;
+    height: max-content;
+    width: 65%;
+    @media (max-width:826px) {
+      font-size: 12px;
+      width: 100%;
+      span { 
+        margin-top: -25px;
+      }
+    }
+  }
+
+  img { 
+    width: 400px;
+    height: 400px;
+  }
+
+  @media (max-width: 826px) {
+      img { width: 150px; height: 150px; }
+      h3 { font-size: 1em; }
+    }
+
+`
+
+export const VariasCervejasimg = styled.img`
+  width: 270px;
+  height: 270px;
+  margin-top: 120px;
+  box-shadow: 0px 0px 0px 3px #b9348b;
+  @media (max-width: 826px) {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 0px 3px #b9348b;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+`
+
+export const Column = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+
+  @media (max-width: 826px) {
+    padding-top: 0px;
+  }
+`
+
+export const Row = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  a { 
+      font-size: 15px;
+      width: 120px;
+      height: 40px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 12px;
+      /* height: max-content; */
+    }
+`
+
+export const ScrollDown = styled.div`
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 400px;
+  right: 93vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E9428C;
+  @media (max-width: 826px) {
+    bottom: 200px;
+    right: 10px;
+  }
 `

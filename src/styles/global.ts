@@ -30,7 +30,15 @@ export default createGlobalStyle`
   #responsive {
     @media (max-width: 768px) {
       img {
-        margin-top: 110px;
+        margin-top: 75px;
+        width: 100px;
+      }
+
+    }
+
+    @media (min-height: 812px) {
+      img {
+        margin-top: 105px;
         width: 100px;
       }
 

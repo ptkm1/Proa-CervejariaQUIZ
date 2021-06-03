@@ -21,7 +21,7 @@ const Home: React.FC = () => {
 
       <TitlePart>
         <h1>Descubra qual Proa é seu </h1>
-        <h1 id="rosa">Par Perfeito</h1>
+        <h1 style={{ color: '#E9428C' }}>Par Perfeito</h1>
       </TitlePart>
 
         <Angel2 />

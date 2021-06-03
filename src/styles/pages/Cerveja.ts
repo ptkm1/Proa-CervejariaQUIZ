@@ -70,7 +70,9 @@ export const CervejariaInfo = styled.div`
 
   h1 {
     font-size: 1.3em;
-    margin-bottom: 30px;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-bottom: -15px;
     color: #e9428c;
   }
 
@@ -79,6 +81,12 @@ export const CervejariaInfo = styled.div`
     width: 60%;
     letter-spacing: -1px;
     color: #3d3d3d;
+  }
+  span { 
+    font-size: 0.7em;
+    letter-spacing: -1px;
+    color: #3d3d3d;
+    font-weight: 600;
   }
 
   a {
@@ -107,9 +115,16 @@ export const CervejariaInfo = styled.div`
       margin-left: 10px;
     }
     h1 {
+      margin-top: -25px;
       margin-bottom: -15px;
       margin-left: 10px;
       line-height: 20px;
+    }
+    span { 
+      font-size: 0.7em;
+      margin-left: 10px;
+      letter-spacing: -1px;
+      color: #3d3d3d;
     }
   }
 `
@@ -136,11 +151,15 @@ export const Toasty1 = styled.div`
   z-index: 50;
   background: #b9348b;
   font-size: 9px;
+  font-size: 100%;
+
   
   @media (max-width: 826px) {
     width: 100px;
     height: 80px;
     top: 50px;
+    right: 40px;
+    font-size: 50%;
   }
 `
 export const Square = styled.div`
@@ -156,11 +175,12 @@ export const Square = styled.div`
   @media (max-width: 826px) {
     width: 50px;
     top: 80px;
+    right: 75px;
   }
 `
 
 export const Paragraph = styled.div`
-  height: 300px;
+  height: 330px;
   width: 100%;
   overflow: scroll;
   ::-webkit-scrollbar {

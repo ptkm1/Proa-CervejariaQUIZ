@@ -1,7 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import { Square, Toasty, Toasty1 } from '../styles/pages/Cerveja';
+import { MobileAngel } from '../styles/pages/Home';
+import SleepAngel from '../assets/svgs/sleepangel.svg'
 
-const ToastComponent: React.FC = ({children, ...rest}: any) => {
+interface Props {
+  style?: string | any
+}
+
+const ToastComponent: React.FC<Props> = ({children, ...rest}: any) => {
 
   const toasty = useRef<HTMLDivElement>()
   const toastysquare = useRef<HTMLDivElement>()
@@ -19,10 +25,14 @@ const ToastComponent: React.FC = ({children, ...rest}: any) => {
 
   return (
     <>
-    <Toasty1 ref={toasty}>
+    <Toasty1 {...rest} ref={toasty}>
       {children}
     </Toasty1>
     <Square ref={toastysquare}></Square>
+
+    <MobileAngel id="angelBG">
+      <SleepAngel />
+    </MobileAngel>
     </>
   )
 }

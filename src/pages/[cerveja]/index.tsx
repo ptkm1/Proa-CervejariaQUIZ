@@ -39,7 +39,7 @@ const CervejaPage: React.FC = () => {
                 <h1>{e.cerveja}</h1>
                 <Paragraph>
                   <p>{e.descricao}</p>
-                  <p>{e.abv}</p>
+                  <span>{e.abv}</span>
                 <Link
                   href={`https://api.whatsapp.com/send?phone=557196805838&text=Marcar encontro com a Proa ${e.cerveja}.`}
                 >
@@ -48,9 +48,6 @@ const CervejaPage: React.FC = () => {
                 </Paragraph>
               </CervejariaInfo>
             </CervejariaContainer>
-            <MobileAngel id="angelBG">
-              <SleepAngel />
-            </MobileAngel>
           </>
         ))
       )}

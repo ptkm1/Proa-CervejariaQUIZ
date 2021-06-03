@@ -41,7 +41,7 @@ export const Container = styled.div`
     font-size: 24px;
     line-height: 32px;
   }
-  #rosabg {
+  #rosa {
       background-color: #B9348B;
     }
 
@@ -134,8 +134,17 @@ export const RowGrid = styled.div`
   
 
   @media (max-width:826px) {
-    flex-direction: column;
     margin-top: 50px;
+
+    a { 
+      font-size: 15px;
+      width: 120px;
+      height: 40px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 12px;
+      /* height: max-content; */
+    }
   }
 `
 
@@ -146,13 +155,13 @@ z-index: 9999;
 `
 
 export const MobileAngel = styled.div`
-  position: fixed;
-  top: 240px;
-  right: 20%;
+  position: absolute; // change to fixed
+  margin-top: -50px; // change to 240px
+  right: 20%; // change to 20%
 
   @media (max-width: 768px) {
-      right: 80px;
-      top: 90px;
+      right: 70px;
+      top: 140px;
     svg { 
       width: 60px;
     }
