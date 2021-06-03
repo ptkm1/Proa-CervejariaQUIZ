@@ -127,10 +127,10 @@ export const Toasty = styled.div`
 
 export const Toasty1 = styled.div`
   position: absolute;
-  top: 20%;
-  right: 15%;
+  top: 70px;
+  right: 270px;
   width: 250px;
-  height: max-content;
+  height: 100px;
   padding: 10px;
   border-radius: 10px;
   z-index: 50;
@@ -145,8 +145,8 @@ export const Toasty1 = styled.div`
 `
 export const Square = styled.div`
   position: absolute;
-  top: 23%;
-  right: 25%;
+  top: 120px;
+  right: 450px;
   width: 50px;
   height: 50px;
   transform: rotate(40deg);

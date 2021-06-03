@@ -147,7 +147,7 @@ z-index: 9999;
 
 export const MobileAngel = styled.div`
   position: fixed;
-  top: 40%;
+  top: 240px;
   right: 20%;
 
   @media (max-width: 768px) {
