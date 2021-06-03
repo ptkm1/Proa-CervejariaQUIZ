@@ -161,6 +161,18 @@ export const Toasty1 = styled.div`
     right: 40px;
     font-size: 50%;
   }
+  @media (max-height: 740px) {
+    top: 10px;
+    right: 150px;
+  }
+
+  @media (max-width: 1401px) {
+      right: 30px;
+      top: 70px;
+    svg { 
+      width: 60px;
+    }
+  }
 `
 export const Square = styled.div`
   position: absolute;
@@ -172,10 +184,28 @@ export const Square = styled.div`
   border-radius: 5px;
   background: #b9348b;
   z-index: 49;
+
+  @media (max-width: 1401px) {
+      right: 170px;
+      top: 130px;
+    svg { 
+      width: 60px;
+    }
+  }
+
   @media (max-width: 826px) {
     width: 50px;
     top: 80px;
     right: 75px;
+  }
+  @media (max-height: 740px) {
+    top: 65px;
+    right: 300px;
+    @media (max-width:826px) {
+      right: 200px;
+      top: 50px;
+      width: 20px;
+    }
   }
 `
 

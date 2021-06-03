@@ -123,7 +123,9 @@ export const Header = styled.div`
 
     }
   }
-  
+  @media (max-height: 740px) {
+    top: 0;
+  }
 `
 
 export const RowGrid = styled.div`
@@ -146,6 +148,10 @@ export const RowGrid = styled.div`
       /* height: max-content; */
     }
   }
+
+  @media (max-height: 740px) {
+    margin-top: 50px;
+  }
 `
 
 export const Footer = styled.div`
@@ -165,5 +171,18 @@ export const MobileAngel = styled.div`
     svg { 
       width: 60px;
     }
+  }
+
+
+  @media (max-width: 1401px) {
+      right: 150px;
+      top: 200px;
+    svg { 
+      width: 90px;
+    }
+  }
+
+  @media (max-height: 740px) {
+    right: 200px;
   }
 `;

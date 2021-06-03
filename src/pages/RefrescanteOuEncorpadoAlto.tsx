@@ -9,7 +9,7 @@ const RefrescanteOuEncorpado: React.FC = () => {
       <TitlePart>
         <h1 id="titulo"></h1>
       </TitlePart>
-      <Header style={{ position: 'fixed', top: '50px', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}} id="workingcupid">
+      <Header  id="workingcupid">
         <AngelBeer />
         <h3 style={{ color: '#3D3D3D', margin: '0px 0px', fontWeight: 400, marginLeft: 50}}>Nossos cupidos estão trabalhando...</h3>
       </Header>
