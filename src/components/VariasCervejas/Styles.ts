@@ -76,6 +76,7 @@ export const CervejaBloco = styled.div`
 
 export const RefazendoBloco = styled.div`
   width: 100%;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

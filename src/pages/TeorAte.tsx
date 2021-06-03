@@ -18,9 +18,9 @@ const TeorAte: React.FC = () => {
       </TitlePart>
 
       <RowGrid>
-      <Link href="/Mallampati">Teor alcoólico até 4,4%</Link>
+      <a style={{ background: '#64358C'}} href="/Mallampati">Teor alcoólico até 4,4%</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/FrutadoOuPrado">Teor alcoólico acima de 7%</Link>
+        <a style={{ background: '#E9428C'}} href="/FrutadoOuPrado">Teor alcoólico acima de 7%</a>
       </RowGrid>
     </Container>
   )

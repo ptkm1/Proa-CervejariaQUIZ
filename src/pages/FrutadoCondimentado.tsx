@@ -16,9 +16,9 @@ const FrutadoCondimentado: React.FC = () => {
       </div>
 
       <RowGrid>
-      <Link href="/Saison">Álcool 7%</Link>
+      <a style={{ background: '#64358C'}} href="/Saison">Álcool 7%</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/Weiss">Álcool 4,8%</Link>
+      <a style={{ background: '#E9428C'}}  href="/Weiss">Álcool 4,8%</a>
       </RowGrid>
     </Container>
   )

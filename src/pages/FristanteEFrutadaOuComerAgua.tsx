@@ -16,9 +16,9 @@ const FrisanteEFrutadaOuComerAgua: React.FC = () => {
       </div>
 
       <RowGrid>
-      <Link href="/SOUR1">Frisante e Frutada</Link>
+      <a style={{ background: '#64358C'}} href="/SOUR1">Frisante e Frutada</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/BAIANA1">Comer Água</Link>
+      <a style={{ background: '#E9428C'}} href="/BAIANA1">Comer Água</a>
       </RowGrid>
     </Container>
   )

@@ -14,9 +14,9 @@ const FrutadoOuPrado: React.FC = () => {
         <h3 style={{ color: '#3D3D3D', margin: '0px 0px', fontSize: '30px', fontWeight: 400, marginLeft: 50}}>Nossos cupidos estão trabalhando...</h3>
       </div>
       <RowGrid>
-      <Link href="/RIS">Frutado</Link>
+      <a style={{ background: '#64358C'}}  href="/RIS">Frutado</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/Blackipa">Prado</Link>
+      <a style={{ background: '#E9428C'}} href="/Blackipa">Prado</a>
       </RowGrid>
     </Container>
   )

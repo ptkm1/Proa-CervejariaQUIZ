@@ -16,9 +16,9 @@ const Cerveja: React.FC = () => {
       </Header>
 
       <RowGrid>
-      <Link href="/ChoppLeveOuEncorpado">Tradicional</Link>
+      <a style={{ background: '#64358C'}} href="/ChoppLeveOuEncorpado">Tradicional</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/AmagorAltoOuBaixo">Artesanal</Link>
+          <a style={{ background: '#E9428C'}} href="/AmagorAltoOuBaixo">Artesanal</a>
       </RowGrid>
     </Container>
   )

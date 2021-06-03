@@ -15,9 +15,9 @@ const ClaroOuEscuro: React.FC = () => {
       </div>
 
       <RowGrid>
-        <Link href="/variascervejas">Claro</Link>
+        <a style={{ background: '#64358C'}}  href="/variascervejas">Claro</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/TeorAte">Escuro</Link>
+        <a style={{ background: '#E9428C'}} href="/TeorAte">Escuro</a>
       </RowGrid>
     </Container>
   )

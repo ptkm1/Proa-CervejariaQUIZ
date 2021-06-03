@@ -16,9 +16,9 @@ const LevinhaOuModerada: React.FC = () => {
       </div>
 
       <RowGrid>
-      <Link href="/FristanteEFrutadaOuComerAgua">Levinha</Link>
+      <a style={{ background: '#64358C'}} href="/FristanteEFrutadaOuComerAgua">Levinha</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/CNTP">Moderada</Link>
+      <a style={{ background: '#E9428C'}} href="/CNTP">Moderada</a>
       </RowGrid>
     </Container>
   )

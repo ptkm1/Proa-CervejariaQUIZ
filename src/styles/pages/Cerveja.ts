@@ -136,7 +136,7 @@ export const Toasty1 = styled.div`
   z-index: 50;
   background: #b9348b;
   font-size: 9px;
-
+  
   @media (max-width: 826px) {
     width: 100px;
     height: 80px;

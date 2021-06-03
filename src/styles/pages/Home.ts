@@ -41,6 +41,9 @@ export const Container = styled.div`
     font-size: 24px;
     line-height: 32px;
   }
+  #rosabg {
+      background-color: #B9348B;
+    }
 
   a{
     width: 350px;
@@ -51,12 +54,9 @@ export const Container = styled.div`
     text-decoration:none;
     font-size: 22px;
     color: white;
-    background-color: ${prop => prop.theme.colors.primary};
     margin: 5px;
 
-    .rosa {
-      background-color: #B9348B;
-    }
+    
 
     :hover {
       filter: brightness(0.8);

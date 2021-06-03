@@ -15,9 +15,9 @@ const AmagorAlto: React.FC = () => {
       </div>
 
       <RowGrid>
-        <Link href="/RefrescanteOuEncorpadoAlto">Alto</Link>
+        <a style={{ background: '#64358C'}} href="/RefrescanteOuEncorpadoAlto">Alto</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-          <Link href="/RefrescanteOuEncorpadoBaixo">Baixo</Link>
+        <a style={{ background: '#E9428C'}} href="/RefrescanteOuEncorpadoBaixo">Baixo</a>
       </RowGrid>
     </Container>
   )

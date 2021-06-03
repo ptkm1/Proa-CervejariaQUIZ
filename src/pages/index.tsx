@@ -13,7 +13,7 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Homepage</title>
+        <title>PROA-QUIZ</title>
       </Head>
       <Header>
 
@@ -29,9 +29,9 @@ const Home: React.FC = () => {
       </Header>
 
       <RowGrid style={{ marginTop: '-10%' }}>
-            <Link href="/TradicionalOuArtesanal">Cerveja</Link>
+            <a style={{ background: '#64358C'}} href="/TradicionalOuArtesanal">Cerveja</a>
               <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-            <Link href="/SOUR">Espumante</Link>
+            <a style={{ background: '#E9428C'}} href="/SOUR">Espumante</a>
       </RowGrid>
     </Container>
   )
