@@ -5,7 +5,7 @@ export const Cervejas = [
     descricao:'A Baiana Lager é a nossa cerveja mais democrática. Leve, refrescante e fácil de beber, foi criada para "comer água" com a galera sem perder a qualidade da cerveja artesanal.',
     abv:'ABV 4.5% IBU 9',
     toast:
-      'Mereço um aumento!',
+      'Sou rápido. Mereço um aumento!',
     toastSize: 19,
       img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fbaiana.png?alt=media&token=c8202c53-fc4e-4777-8c20-bfbd3cf9c9d5'
@@ -24,7 +24,7 @@ export const Cervejas = [
   {
     titulo: 'Vienna',
     cerveja: 'Vienna Lager',
-    descricao: 'Cerveja de coloração acobreada com tons avermelhados, sabor de malte evidente remetendo a pão levemente torrado. É uma cerveja equilibrada no qual o amargor dos lúpulos nobres alemães lidam de forma elegante com as notas adocicadas do malte. ABV 4.5% IBU 20',
+    descricao: 'Cerveja de coloração acobreada com tons avermelhados, sabor de malte evidente remetendo a pão levemente torrado. É uma cerveja equilibrada no qual o amargor dos lúpulos nobres alemães lidam de forma elegante com as notas adocicadas do malte.',
     abv: 'ABV 4.5% IBU 20',
     toast:
       'Quando você vai perceber? Vienna espera por você. - Billy Joel',
@@ -35,7 +35,7 @@ export const Cervejas = [
   {
     titulo: 'Lager',
     cerveja: 'Vienna Lager',
-    descricao: 'Cerveja de coloração acobreada com tons avermelhados, sabor de malte evidente remetendo a pão levemente torrado. É uma cerveja equilibrada no qual o amargor dos lúpulos nobres alemães lidam de forma elegante com as notas adocicadas do malte. ABV 4.5% IBU 20',
+    descricao: 'Cerveja de coloração acobreada com tons avermelhados, sabor de malte evidente remetendo a pão levemente torrado. É uma cerveja equilibrada no qual o amargor dos lúpulos nobres alemães lidam de forma elegante com as notas adocicadas do malte.',
     abv: 'ABV 4.5% IBU 20',
     toast:
       'Sou ligeiro!',
@@ -60,7 +60,7 @@ export const Cervejas = [
     descricao: 'Cerveja de coloração dourada, com baixo teor alcoólico e baixo amargor. A Acapulco une a refrescância das lagers com aroma do lúpulo, conferindo toques no aroma e sabor de frutas cítricas, maracujá, frutas tropicais ou de limão, lima e pitanga.  De corpo baixo, é facil de beber e combina muito com o clima quente praiano. Estilo disponível nos lúpulos Citra e Eukanot.',
     abv: 'ABV: 4.4% IBU 20',
     toast:
-      'Se você não vai até Acapulco, ele vem até você.',
+      'Se você não vai até Acapulco, ela vem até você.',
     toastSize: 17,
     img:
       'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FACAPULCO.png?alt=media&token=c8a23932-4a83-47c5-883e-2a23300d1585'

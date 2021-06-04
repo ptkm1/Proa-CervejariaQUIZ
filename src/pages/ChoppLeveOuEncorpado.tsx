@@ -17,7 +17,7 @@ const ChoppLeveOuEncorpado: React.FC = () => {
       <RowGrid>
         <a style={{ background: '#64358C'}} href="/Baiana">Leve</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px', fontWeight: 600 }}>OU</h3>
-        <a style={{ background: '#E9428C'}} href="/CNTP">Encorpado</a>
+        <a style={{ background: '#E9428C'}} href="/CNTP">Encorpada</a>
       </RowGrid>
     </Container>
   )

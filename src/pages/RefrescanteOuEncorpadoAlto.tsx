@@ -17,7 +17,7 @@ const RefrescanteOuEncorpado: React.FC = () => {
       <RowGrid>
       <a style={{ background: '#64358C'}} href="/Acapulco">Refrescante</a>
           <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-      <a style={{ background: '#E9428C'}} href="/ClaroOuEscuro">Encorpado</a>
+      <a style={{ background: '#E9428C'}} href="/ClaroOuEscuro">Encorpada</a>
       </RowGrid>
     </Container>
   )

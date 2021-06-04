@@ -116,11 +116,11 @@ export const Header = styled.div`
 
 
   @keyframes example {
-  0%   {margin-top: 10px;}
-  25%  {margin-bottom: 0px;}
-  50%  {margin-top: 10px;}
-  75%  {margin-top: 0px;}
-  100% {margin-top: 10px;}
+  0%   {margin-top: 0px;}
+  25%  {margin-bottom: 20px;}
+  50%  {margin-top: 0px;}
+  75%  {margin-top: 20px;}
+  100% {margin-top: 0px;}
   }
   
 
@@ -185,7 +185,6 @@ export const MobileAngel = styled.div`
   right: 20%; // change to 20%
   animation-name: example;
   animation-duration: 4s;
-  animation-delay: 0.4s;
   animation-iteration-count: infinite;
 
   @keyframes example {

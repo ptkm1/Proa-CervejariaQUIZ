@@ -14,23 +14,53 @@ export default createGlobalStyle`
     font: 400 16px 'Overpass Mono', monospace;
   }
 
+  /* MEDIA QUERIES */
+
+  #reduce {
+    position: absolute;
+    right:0;
+  }
+
+  #reduce1 {
+    width: 280px;
+  }
   
 
-      #reduce {
+  @media (max-width: 1025px) {
+    #reduce {
+      width: 170px;
+    }
+
+    #reduce1 {
+      width: 260px;
+    }
+  }
+
+  @media (max-width: 416px) {
+    #reduce {
+      width: 100px;
+      margin-top: 50px;
+    }
+
+    #reduce1 {
+      margin-top: 50px;
+      width: 150px;
+    }
+  }
+
+      /* #reduce {
         right: 50px;
         position: absolute;
+
       }
 
-      
+      #responsive {
+        #reduce1 {
+          width: 500px;
+        }
+      }
 
   @media (max-width: 768px) {
-
-
-    @media (min-height: 780px) {
-        
-      }
-
-
     #reduce {
       width: 40px;
       right: 10px;
@@ -70,5 +100,5 @@ export default createGlobalStyle`
       }
 
     }
-  }
+  } */
 `
