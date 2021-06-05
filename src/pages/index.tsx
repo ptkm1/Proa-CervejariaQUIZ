@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Middle, PageLayout, Footer, FooterItems, HeaderText, HeaderSvgs, MiddleButton } from '../styles/pages/Layout';
+import { Header, Middle, PageLayout, Footer, FooterItems, HeaderText, HeaderSvgs, MiddleButton, HeaderTextIndex } from '../styles/pages/Layout';
 import { 
   createMuiTheme,
   responsiveFontSizes,
@@ -23,10 +23,10 @@ const Home: React.FC = () => {
         <HeaderSvgs>
           <Cupido1 />
         </HeaderSvgs>
-        <HeaderText>
-          <Typography variant="h3" style={{ color: '#3D3D3D' }} gutterBottom>Descubra qual</Typography>
+        <HeaderTextIndex>
+          <Typography variant="h4" style={{ color: '#3D3D3D' }} gutterBottom>Descubra qual</Typography>
           <Typography variant="h3" style={{ color: '#E9428C' }} gutterBottom>É o seu Par Perfeito</Typography>
-        </HeaderText>
+        </HeaderTextIndex>
         <HeaderSvgs>
           <Cupido2 />
         </HeaderSvgs>

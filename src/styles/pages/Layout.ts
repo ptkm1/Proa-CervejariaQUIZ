@@ -166,6 +166,85 @@ export const HeaderText = styled.div`
   
 `
 
+export const HeaderTextIndex = styled.div`
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h4 {
+    font-size: 2.5vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+  }
+  h3 {
+      font-size: 2.5vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+    }
+
+    
+
+  // Laptop
+  @media (max-width: 1025px) {
+    h4 { 
+      font-size: 3vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+    }
+    h3 {
+      font-size: 3vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+    }
+  }
+  // Tablet
+  @media (max-width: 769px) {
+
+  }
+  // Mobile
+  @media (max-width: 426px) {
+
+    h4 {
+      font-size: 4vw;
+      white-space: wrap;
+      overflow: visible;
+      text-overflow: clip;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+
+    }
+
+    h3 {
+      font-size: 4vw;
+      white-space: wrap;
+      overflow: visible;
+      text-overflow: clip;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+    }
+  }
+  
+`
+
 export const HeaderSvgs = styled.div<Props>`
   display: flex;
   width: 100%;
