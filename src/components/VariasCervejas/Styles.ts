@@ -216,4 +216,19 @@ export const ScrollDown = styled.div`
     bottom: 200px;
     right: 10px;
   }
+
+  @keyframes cupidMoove {
+      0%   {bottom: 40vh;}
+      25%  {bottom: 50vh;}
+      50%  {bottom: 40vh;}
+      75%  {bottom: 50vh;}
+      100% {bottom: 40vh;}
+  }
+
+  animation-name: cupidMoove;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+
+  
 `

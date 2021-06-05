@@ -43,7 +43,7 @@ export const Bottom = styled.div`
   }
 
   @media (max-width: 426px) {
-    background-size: 200% 70%;
+    background-size: 200% 100%;
     background-repeat: no-repeat;
   }
 `
@@ -228,10 +228,19 @@ export const Informations = styled.div`
 
   h4 {
     width: 40%;
+    font-family: 'Overpass Mono', monospace;
+    white-space: 1px;
+    text-justify: auto;
+    letter-spacing: -2px;
   }
 
   p {
     width: 50%;
+    font-family: 'Overpass Mono', monospace;
+    white-space: 1px;
+    letter-spacing: -0.10vw;
+    text-align: left;
+    line-height: 2.3vh;
   }
 
   // Laptop
@@ -253,6 +262,9 @@ export const Informations = styled.div`
   @media (max-width: 426px) {
     width: 100%;
     margin-left: 0px;
+    h4 {
+      font-size: 5vw;
+    }
     p {
       font-size: 4vw;
     }

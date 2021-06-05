@@ -57,14 +57,15 @@ const CervejaPage: React.FC = () => {
                     <Typography variant="h4">{e.titulo}</Typography>
                     <Typography variant="body1">{e.descricao}</Typography>
                     <Typography variant="caption">{e.details}</Typography>
-                    <Button 
+                    <a 
                     color="primary" 
-                    style={{background: 'purple', width: '200px'}}
+                    style={{background: 'purple', width: '180px', height: '40px', display: "flex", alignItems: "center", justifyContent: "center"}}
                     onClick={ () => window.location.href = e.link }
-                    >Marcar Encontro!</Button>
+                    >Marcar Encontro!</a>
                   </Info>
                 ))}
                 <ScrollDown>
+                  
                   <FaArrowDown size="17px" />
                 </ScrollDown>
               </ContainerVariasCervejas>

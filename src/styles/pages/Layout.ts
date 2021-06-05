@@ -88,7 +88,15 @@ export const HeaderText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  h4 {
+    font-size: 2.5vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+  }
   h3 {
       font-size: 2.5vw;
       white-space: nowrap;
@@ -103,6 +111,15 @@ export const HeaderText = styled.div`
 
   // Laptop
   @media (max-width: 1025px) {
+    h4 { 
+      font-size: 3vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+    }
     h3 {
       font-size: 3vw;
       white-space: nowrap;
@@ -120,6 +137,19 @@ export const HeaderText = styled.div`
   // Mobile
   @media (max-width: 426px) {
 
+    h4 {
+      font-size: 4vw;
+      white-space: wrap;
+      overflow: visible;
+      text-overflow: clip;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+      position: absolute;
+      right: 5%;
+      top: 5%;
+    }
+
     h3 {
       font-size: 4vw;
       white-space: wrap;
@@ -128,6 +158,9 @@ export const HeaderText = styled.div`
       font-family: 'Overpass Mono', monospace;
       white-space: 1px;
       letter-spacing: 0px;
+      position: absolute;
+      right: 20%;
+      top: 5%;
     }
   }
   
@@ -147,6 +180,7 @@ export const HeaderSvgs = styled.div<Props>`
     animation-duration: 2s;
     animation-iteration-count: infinite;
     position: absolute;
+    width: 20vw;
 
     @keyframes cupidMoove {
       0%   {margin-top: 10px;}
@@ -239,11 +273,13 @@ export const Footer = styled.div`
   }
 
   @media (max-width: 426px) {
-    background-size: 200% 70%;
+    background-size: 200% 80%;
     background-repeat: no-repeat;
   }
 
-  grid-area: 'Footer';
+  @media (max-height: 814px) {
+    background-size: 200% 100%;
+  }
 `
 
 export const FooterItems = styled.div`
@@ -288,7 +324,7 @@ export const FooterItems = styled.div`
 
   @media (max-height: 769px) {
     #logo { 
-      margin-bottom: -15px;
+      margin-bottom: 0px;
     }
   }
 

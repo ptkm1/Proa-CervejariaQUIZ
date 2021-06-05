@@ -32,7 +32,7 @@ const FrutadoCondimentado: React.FC = () => {
             <AngelBeer />
           </HeaderSvgs>
           <HeaderText>
-            <Typography variant="h3" style={{ color: '#3D3D3D' }} gutterBottom>
+            <Typography variant="h4" style={{ color: '#3D3D3D' }} gutterBottom>
               Nossos Cupidos Estão Trabalhando...
             </Typography>
           </HeaderText>

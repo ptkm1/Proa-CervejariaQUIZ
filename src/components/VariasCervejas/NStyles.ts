@@ -31,6 +31,7 @@ export const ImgContent = styled.img`
   margin-left: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 0px 0px 0px 3px #b9348b;
 
   //Laptop
   @media (max-width: 1025px) {

@@ -97,8 +97,8 @@ export const Cervejas = [
   },
   {
     titulo: 'SOUR',
-    cerveja: 'Sour Morango do Nordeste',
-    descricao: 'Trouxemos a suculência, aroma e sabor do caju para essa cerveja de acidez assertiva, baixa formação e retenção de espuma e características que lembram um espumante.  O teor alcoólico é baixo e o amargor imperceptível.',
+    cerveja: 'Morango do Nordeste',
+    descricao: 'Fruta sensual e romântica, proveniente da Europa, o morango inspirou essa sour equilibrada, seguindo as características ácidas e suaves do estilo, acrescido da suculência do Morango. Nessa cerveja o toque elegante não vem do velho mundo, mas dos morangos do Nordeste, vindos direto da Chapada Diamantina e que tem desenvolvido tantas famílias naquela região.',
     abv: 'ABV 3,5% IBU 6',
     link: 'https://proacervejaria.goomer.app/detail/3670282',
     toast:
@@ -109,7 +109,7 @@ export const Cervejas = [
   },
   {
     titulo: 'SOUR1',
-    cerveja: 'Sour Morango do Nordeste',
+    cerveja: 'Morango do Nordeste',
     descricao: 'Mel de cacau é o néctar extraído da fruta na hora da colheita. Normalmente privilégio apenas dos trabalhadores das fazendas, já que o líquido é extremamente perecível. Unimos a doçura do mel de cacau a acidez de uma Sour para chegar no resultado surpreendente dessa cerveja.',
     abv: 'ABV 3,5% IBU 6',
     link: 'https://proacervejaria.goomer.app/detail/3670282',
