@@ -58,18 +58,18 @@ export default class MyDocument extends Document {
           <div
             style={{
               position: 'absolute',
-              top: '74vh',
+              bottom: '0',
               display: 'flex',
               width: '100%',
-              justifyContent: 'center'
+              justifyContent: 'center',
             }}
           >
-            <Footer id="responsive">
+            {/* <Footer id="responsive">
               <img id="reduce1" src={Logo} alt="" />
             </Footer>
             <Footer id="responsive">
               <img id="reduce" src={Barco} alt="" />
-            </Footer>
+            </Footer> */}
           </div>
         </body>
       </Html>

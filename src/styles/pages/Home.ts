@@ -176,13 +176,11 @@ export const RowGrid = styled.div`
 export const Footer = styled.div`
 position: absolute;
 z-index: 9999; 
-
 `
 
 export const MobileAngel = styled.div`
-  position: absolute; // change to fixed
   margin-top: -50px; // change to 240px
-  right: 20%; // change to 20%
+
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -196,8 +194,6 @@ export const MobileAngel = styled.div`
   }
 
   @media (max-width: 768px) {
-      right: 70px;
-      top: 140px;
     svg { 
       width: 60px;
     }
@@ -205,19 +201,8 @@ export const MobileAngel = styled.div`
 
 
   @media (max-width: 1401px) {
-      right: 150px;
-      top: 200px;
     svg { 
       width: 90px;
     }
-  }
-
-  @media (max-height: 740px) {
-    right: 200px;
-  }
-
-  @media (max-width: 640px) {
-    right: 20px;
-    top: 80px;
   }
 `;

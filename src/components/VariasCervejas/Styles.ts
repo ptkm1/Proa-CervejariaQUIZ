@@ -3,7 +3,7 @@ import { Paragraph } from '../../styles/pages/Cerveja';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
@@ -179,10 +179,9 @@ export const Column = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
 
   @media (max-width: 826px) {
-    padding-top: 0px;
+
   }
 `
 
@@ -208,7 +207,7 @@ export const ScrollDown = styled.div`
   height: 40px;
   position: fixed;
   bottom: 400px;
-  right: 93vw;
+  left: 85vw;
   display: flex;
   justify-content: center;
   align-items: center;

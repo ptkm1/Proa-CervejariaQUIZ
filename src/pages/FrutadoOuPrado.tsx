@@ -1,25 +1,66 @@
-import Link from 'next/link';
-import React from 'react';
-import { Container, Header, RowGrid, TitlePart } from '../styles/pages/Home';
+import React from 'react'
+import {
+  Header2,
+  Middle,
+  PageLayout,
+  Footer,
+  FooterItems,
+  HeaderText,
+  HeaderSvgs,
+  MiddleButton
+} from '../styles/pages/Layout'
+import {
+  createMuiTheme,
+  responsiveFontSizes,
+  MuiThemeProvider,
+  Typography,
+  Button
+} from '@material-ui/core'
+import Barco from '../assets/barco.png'
+import Logo from '../assets/logo.png'
+
+let theme = createMuiTheme()
+theme = responsiveFontSizes(theme)
 import AngelBeer from '../assets/svgs/nossoscupidos.svg'
 
 const FrutadoOuPrado: React.FC = () => {
   return (
-    <Container>
-      <TitlePart>
-        <h1 id="titulo"></h1>
-      </TitlePart>
-      <Header  id="workingcupid">
-        <AngelBeer />
-        <h3 style={{ color: '#3D3D3D', margin: '0px 0px', fontSize: '30px', fontWeight: 400, marginLeft: 50}}>Nossos cupidos estão trabalhando...</h3>
-      </Header>
-      <RowGrid>
-      <a style={{ background: '#64358C'}}  href="/RIS">Frutado</a>
-          <h3 style={{ color: '#E9428C', margin: '0px 30px' }}>OU</h3>
-      <a style={{ background: '#E9428C'}} href="/Blackipa">Prado</a>
-      </RowGrid>
-    </Container>
+    <MuiThemeProvider theme={theme}>
+      <PageLayout>
+        <Header2>
+          <HeaderSvgs>
+            <AngelBeer />
+          </HeaderSvgs>
+          <HeaderText>
+            <Typography variant="h3" style={{ color: '#3D3D3D' }} gutterBottom>
+              Nossos Cupidos Estão Trabalhando...
+            </Typography>
+          </HeaderText>
+        </Header2>
+        <Middle>
+          <MiddleButton href="/RIS" background="#64358C">
+            Frutado
+          </MiddleButton>
+          <Typography variant="h6" gutterBottom>
+            OU
+          </Typography>
+          <MiddleButton href="/Blackipa" background="#B9348B">
+            Torrado
+          </MiddleButton>
+        </Middle>
+        <Footer>
+          <FooterItems>
+            <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+              <img src={Logo} id="logo" />
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+              <img src={Barco} id="barquinho" />
+            </div>
+          </FooterItems>
+        </Footer>
+      </PageLayout>
+    </MuiThemeProvider>
   )
 }
 
-export default FrutadoOuPrado;
+export default FrutadoOuPrado

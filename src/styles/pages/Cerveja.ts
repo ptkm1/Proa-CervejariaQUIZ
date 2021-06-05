@@ -138,6 +138,22 @@ export const CervejariaInfo = styled.div`
   }
 `
 
+export const ContainerToast = styled.div`
+  width: max-content;
+  height: max-content;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  display: flex;
+  flex-direction: column;
+`
+
+export const Balloon = styled.div`
+  width: max-content;
+  height: max-content;
+`
+
 export const Toasty = styled.div`
   position: absolute;
   top: 30%;
@@ -150,14 +166,13 @@ export const Toasty = styled.div`
 `
 
 export const Toasty1 = styled.div`
-  position: absolute;
   top: 70px;
   right: 270px;
   width: 250px;
   height: 100px;
   padding: 10px;
   border-radius: 10px;
-  z-index: 50;
+  z-index: 9999;
   background: #b9348b;
   font-size: 9px;
   font-size: 100%;
@@ -191,43 +206,17 @@ export const Toasty1 = styled.div`
   }
 `
 export const Square = styled.div`
-  position: absolute;
-  top: 120px;
-  right: 450px;
-  width: 50px;
-  height: 50px;
+  margin-top: -30px;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
   transform: rotate(40deg);
-  border-radius: 5px;
+  border-radius: 15px;
   background: #b9348b;
-  z-index: 49;
-
-  @media (max-width: 1401px) {
-      right: 170px;
-      top: 130px;
-    svg { 
-      width: 60px;
-    }
-  }
+  z-index: 30;
 
   @media (max-width: 826px) {
-    width: 50px;
-    top: 80px;
-    right: 75px;
-  }
-  @media (max-height: 740px) {
-    top: 65px;
-    right: 300px;
-    @media (max-width:826px) {
-      right: 190px;
-      top: 50px;
-      width: 20px;
-    }
-  }
-
-   /* MOBILE (motog4 | iphone x) */
-   @media (max-width: 645px) {
-    right: 50px;
-    top: 50px;
+    border-radius: 15px;
   }
 `
 
