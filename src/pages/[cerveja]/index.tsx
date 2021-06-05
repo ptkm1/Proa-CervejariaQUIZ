@@ -57,7 +57,11 @@ const CervejaPage: React.FC = () => {
                     <Typography variant="h4">{e.titulo}</Typography>
                     <Typography variant="body1">{e.descricao}</Typography>
                     <Typography variant="caption">{e.details}</Typography>
-                    <Button color="primary" style={{background: 'purple', width: '200px'}}>Marcar Encontro!</Button>
+                    <Button 
+                    color="primary" 
+                    style={{background: 'purple', width: '200px'}}
+                    onClick={ () => window.location.href = e.link }
+                    >Marcar Encontro!</Button>
                   </Info>
                 ))}
                 <ScrollDown>
@@ -75,7 +79,7 @@ const CervejaPage: React.FC = () => {
                     <Typography variant="h4">{e.cerveja}</Typography>
                     <Typography variant="body1">{e.descricao}</Typography>
                     <Typography variant="caption">{e.abv}</Typography>
-                    <a href="#">Marcar Encontro!</a>
+                    <a href={e.link}>Marcar Encontro!</a>
                   </Informations>
                 </ImageAndInformations>
               </TopContent>

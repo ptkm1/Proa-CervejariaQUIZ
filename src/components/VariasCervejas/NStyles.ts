@@ -69,27 +69,6 @@ export const Informations = styled.div`
     color: #E9428C;
   }
 
-
-  a {
-    width: 200px;
-    height: 50px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #3D3D3D;
-    color: white;
-
-    width: 200px;
-    height: 40px;
-    background: #64358C;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   h4 {
     width: 80%;
   }
@@ -105,6 +84,7 @@ export const Informations = styled.div`
 
 
   @media (max-width: 1025px) {
+    margin-bottom: 20px;
     h4 { 
       font-size: 2vw;
     }
@@ -117,6 +97,7 @@ export const Informations = styled.div`
   }
 
   @media (max-width: 426px) {
+    margin-bottom: 2vh;
     width: 80vw;
     h4 {
       width: 80%;
@@ -130,7 +111,7 @@ export const Informations = styled.div`
 
   @media (max-height: 769px) {
     p { 
-      font-size: 2vh;
+      font-size: 1.7vh;
     }
   }
 `

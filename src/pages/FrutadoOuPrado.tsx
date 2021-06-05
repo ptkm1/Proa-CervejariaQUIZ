@@ -38,13 +38,13 @@ const FrutadoOuPrado: React.FC = () => {
           </HeaderText>
         </Header2>
         <Middle>
-          <MiddleButton href="/RIS" background="#64358C">
+          <MiddleButton href="/Blackipa" background="#64358C">
             Frutado
           </MiddleButton>
           <Typography variant="h6" gutterBottom>
             OU
           </Typography>
-          <MiddleButton href="/Blackipa" background="#B9348B">
+          <MiddleButton href="/RIS" background="#B9348B">
             Torrado
           </MiddleButton>
         </Middle>
