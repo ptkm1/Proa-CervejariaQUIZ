@@ -352,7 +352,7 @@ export const Footer = styled.div`
   }
 
   @media (max-width: 426px) {
-    background-size: 200% 80%;
+    background-size: 200% 100%;
     background-repeat: no-repeat;
   }
 
@@ -400,10 +400,14 @@ export const FooterItems = styled.div`
     #barquinho { 
       width: 35vw;
     }
+    
   }
 
   @media (max-height: 769px) {
-    padding-bottom: 30px;
+    #logo { 
+      width: 25vh;
+    }
+    padding-bottom: 40px;
   }
 
 `

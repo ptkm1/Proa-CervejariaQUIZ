@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           <Cupido1 />
         </HeaderSvgs>
         <HeaderTextIndex>
-          <Typography variant="h4" style={{ color: '#3D3D3D' }} gutterBottom>Descubra qual</Typography>
+          <Typography variant="h4" style={{ color: '#3D3D3D' }} gutterBottom>Descubra qual Proa</Typography>
           <Typography variant="h3" style={{ color: '#E9428C' }} gutterBottom>É o seu Par Perfeito</Typography>
         </HeaderTextIndex>
         <HeaderSvgs>

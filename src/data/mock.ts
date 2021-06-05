@@ -105,7 +105,7 @@ export const Cervejas = [
       'Sou rápido, meu bem.',
     toastSize: 19,
     img:
-      'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fsour.png?alt=media&token=681736b2-4eb4-452b-ad79-2fbff032e165'
+      'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fsour%20morango.png?alt=media&token=55a68427-7824-40d6-ac2a-fc433ad3e0cf'
   },
   {
     titulo: 'SOUR1',
@@ -117,7 +117,7 @@ export const Cervejas = [
       'Acredita em amor à primeira vista? E em amor ao primeiro gole?',
     toastSize: 17,
     img:
-      'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fsour.png?alt=media&token=681736b2-4eb4-452b-ad79-2fbff032e165'
+      'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2Fsour%20morango.png?alt=media&token=55a68427-7824-40d6-ac2a-fc433ad3e0cf'
   },
   {
     titulo: 'Mallampati',
