@@ -257,6 +257,10 @@ export const FooterItems = styled.div`
       width: 15vw;
       height: 100%;
     }
+
+    #logo {
+      width: 300px;
+    }
   
   // Laptop
   @media (max-width: 1025px) {
@@ -272,7 +276,7 @@ export const FooterItems = styled.div`
 
   @media (max-width: 769px) {
     #logo { 
-      width: 45vw;
+      width: 36vw;
     }
   }
 
