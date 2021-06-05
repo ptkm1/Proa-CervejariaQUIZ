@@ -289,6 +289,7 @@ export const FooterItems = styled.div`
   display: grid;
   grid-template-columns: 60% 40%;
   align-items: flex-end;
+  padding-bottom: 20px;
     #barquinho {
       width: 15vw;
       height: 100%;
@@ -323,9 +324,7 @@ export const FooterItems = styled.div`
   }
 
   @media (max-height: 769px) {
-    #logo { 
-      margin-bottom: 0px;
-    }
+    padding-bottom: 30px;
   }
 
 `

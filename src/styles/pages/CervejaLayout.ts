@@ -54,6 +54,7 @@ export const BottomItems = styled.div`
   display: grid;
   grid-template-columns: 60% 40%;
   align-items: flex-end;
+  
   #barquinho {
     width: 15vw;
     height: 100%;
@@ -66,7 +67,7 @@ export const BottomItems = styled.div`
   // Laptop
   @media (max-width: 1025px) {
     #logo {
-      width: 25vw;
+      width: 20vw;
     }
     #barquinho {
       width: 25vw;
@@ -76,6 +77,7 @@ export const BottomItems = styled.div`
   }
 
   @media (max-width: 769px) {
+    padding-bottom: 5px;
     #logo {
       width: 25vw;
     }
@@ -85,10 +87,17 @@ export const BottomItems = styled.div`
     #barquinho {
       width: 35vw;
     }
+    #logo {
+      width: 35vw;
+    }
+    padding-bottom: 15px;
   }
 
   @media (max-height: 769px) {
-    
+    padding-bottom: 12px;
+    #logo {
+      width: 25vh;
+    }
   }
 `
 
