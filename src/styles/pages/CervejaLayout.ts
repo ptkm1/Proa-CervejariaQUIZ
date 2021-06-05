@@ -87,8 +87,8 @@ export const BottomItems = styled.div`
     #barquinho {
       width: 35vw;
     }
-    #logo {
-      width: 35vw;
+    img#logo {
+      width: 26vw;
     }
     padding-bottom: 15px;
   }
@@ -275,7 +275,8 @@ export const Informations = styled.div`
       font-size: 5vw;
     }
     p {
-      font-size: 4vw;
+      font-size: 3.5vw;
+      text-align: justify;
     }
   }
 `
