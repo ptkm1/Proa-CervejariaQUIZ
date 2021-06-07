@@ -80,7 +80,7 @@ export const BottomItems = styled.div`
     padding-bottom: 5px;
     #logo {
       width: 23vw;
-      margin-bottom: 25px;
+      margin-bottom: 10px;
     }
   }
 
@@ -89,9 +89,9 @@ export const BottomItems = styled.div`
       width: 30vw;
     }
     img#logo {
-      width: 24vw;
+      width: 20vw;
+      padding-bottom: 20%;
     }
-    padding-bottom: 15px;
   }
 
   @media (max-height: 769px) {

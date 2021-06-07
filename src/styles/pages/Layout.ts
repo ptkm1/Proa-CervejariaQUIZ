@@ -377,12 +377,13 @@ export const FooterItems = styled.div`
 
     #logo {
       width: 300px;
+      margin-bottom: 5px;
     }
 
   // Laptop
   @media (max-width: 1025px) {
     #logo {
-      width: 25vw;
+      width: 20vw;
     }
     #barquinho {
       width: 25vw;
@@ -392,14 +393,20 @@ export const FooterItems = styled.div`
   }
 
   @media (max-width: 769px) {
-    #logo {
-      width: 36vw;
+     padding-bottom: 5px;
+       #logo {
+      width: 23vw;
+      margin-bottom: 10px;
     }
   }
 
   @media (max-width: 426px) {
     #barquinho {
       width: 35vw;
+    }
+    img#logo {
+      width: 20vw;
+      padding-bottom: 20%;
     }
 
   }
