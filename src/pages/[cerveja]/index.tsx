@@ -51,21 +51,24 @@ const CervejaPage: React.FC = () => {
                 Você deu 3 matchs, mas não se preocupe! A proa não é ciumenta
               </ToastComponent>
               <ContainerVariasCervejas>
-                <ImgContent src="https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2F3%20matchs.png?alt=media&token=0380dc87-49b1-43b5-9a88-76479e43eebc" />
                 {CervejasMock2.map((e: any) => (
+                  <>
+                {/* <ImgContent src="https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2F3%20matchs.png?alt=media&token=0380dc87-49b1-43b5-9a88-76479e43eebc" /> */}
+                <ImgContent src={e.img} />
                   <Info>
                     <Typography variant="h4">{e.titulo}</Typography>
                     <Typography variant="body1">{e.descricao}</Typography>
                     <Typography variant="caption">{e.details}</Typography>
-                    <a 
-                    color="primary" 
+                    <a
+                    color="primary"
                     style={{background: 'purple', width: '180px', height: '40px', display: "flex", alignItems: "center", justifyContent: "center"}}
                     onClick={ () => window.location.href = e.link }
                     >Marcar Encontro!</a>
                   </Info>
+                  </>
                 ))}
                 <ScrollDown>
-                  
+
                   <FaArrowDown size="17px" />
                 </ScrollDown>
               </ContainerVariasCervejas>

@@ -25,13 +25,13 @@ export const Container = styled.div`
     bottom: 35%;
     left: 50%;
     z-index: 9999999;
-    svg { 
+    svg {
       width: 100px;
     }
   }
 
   #workingcupid {
-    svg { 
+    svg {
       width: 100px;
     }
     }
@@ -56,7 +56,7 @@ export const Container = styled.div`
     color: white;
     margin: 5px;
 
-    
+
 
     :hover {
       filter: brightness(0.8);
@@ -76,7 +76,7 @@ export const Container = styled.div`
   @media (max-width:640px) {
     background-size: 100% 30%;
   }
-  
+
 `
 
 export const TitlePart = styled.div`
@@ -85,14 +85,14 @@ export const TitlePart = styled.div`
   align-items: center;
   margin: 50px;
   margin-bottom: -50px;
-  
+
   #rosa {
         color: #E9428C;
         margin-bottom: 45px;
       }
-      h1 { font-size: 35px; color: gray; 
+      h1 { font-size: 35px; color: gray;
     }
-  
+
   @media (max-width: 768px) {
     h1 { font-size: 1rem; color: gray;  text-align: center; }
   }
@@ -107,7 +107,7 @@ export const Header = styled.div`
   position: absolute;
   top: 50px;
 
-  svg { 
+  svg {
 
   animation-name: example;
   animation-duration: 4s;
@@ -122,19 +122,19 @@ export const Header = styled.div`
   75%  {margin-top: 20px;}
   100% {margin-top: 0px;}
   }
-  
+
 
   h3 {
     font-size: 30px;
-    color: #3D3D3D; 
+    color: #3D3D3D;
     margin: 0px 0px;
-    font-weight: 400; 
+    font-weight: 400;
     margin-left: 50;
   }
 
   @media (max-width: 726px) {
     padding: 15px;
-    h3 { 
+    h3 {
       font-size: 21px;
       text-align: justify;
       width: 50%;
@@ -151,13 +151,13 @@ export const RowGrid = styled.div`
   align-items: center;
   margin-top: -300px;
 
-  
+
 
   @media (max-width:826px) {
     margin-top: 50px;
     flex-direction: column;
 
-    a { 
+    a {
       font-size: 15px;
       width: 140px;
       height: 60px;
@@ -175,7 +175,7 @@ export const RowGrid = styled.div`
 
 export const Footer = styled.div`
 position: absolute;
-z-index: 9999; 
+z-index: 9999;
 `
 
 export const MobileAngel = styled.div`
@@ -194,15 +194,16 @@ export const MobileAngel = styled.div`
   }
 
   @media (max-width: 768px) {
-    svg { 
+    svg {
       width: 60px;
     }
   }
 
 
   @media (max-width: 1401px) {
-    svg { 
-      width: 90px;
+    svg {
+      width: 70px;
+      margin-top: -15px;
     }
   }
 `;

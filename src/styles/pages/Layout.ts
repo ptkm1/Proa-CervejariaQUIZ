@@ -34,7 +34,7 @@ export const Header = styled.div`
   }
   // Mobile
   @media (max-width: 426px) {
-    
+
   }
 `
 
@@ -66,13 +66,13 @@ export const Header2 = styled.div`
 
   // Tablet
   @media (max-width: 769px) {
-    
+
   }
 
   // Mobile
   @media (max-width: 426px) {
-    h3 { 
-    margin-top: -20px; 
+    h3 {
+    margin-top: -20px;
     }
     svg {
       width: 18vw;
@@ -107,11 +107,11 @@ export const HeaderText = styled.div`
       letter-spacing: 0px;
     }
 
-    
+
 
   // Laptop
   @media (max-width: 1025px) {
-    h4 { 
+    h4 {
       font-size: 3vw;
       white-space: nowrap;
       overflow: hidden;
@@ -163,7 +163,7 @@ export const HeaderText = styled.div`
       top: 5%;
     }
   }
-  
+
 `
 
 export const HeaderTextIndex = styled.div`
@@ -191,11 +191,11 @@ export const HeaderTextIndex = styled.div`
       letter-spacing: 0px;
     }
 
-    
+
 
   // Laptop
   @media (max-width: 1025px) {
-    h4 { 
+    h4 {
       font-size: 3vw;
       white-space: nowrap;
       overflow: hidden;
@@ -242,7 +242,7 @@ export const HeaderTextIndex = styled.div`
       letter-spacing: 0px;
     }
   }
-  
+
 `
 
 export const HeaderSvgs = styled.div<Props>`
@@ -252,7 +252,7 @@ export const HeaderSvgs = styled.div<Props>`
   justify-content: center;
   align-items: center;
 
-  
+
 
   svg {
     animation-name: cupidMoove;
@@ -260,6 +260,7 @@ export const HeaderSvgs = styled.div<Props>`
     animation-iteration-count: infinite;
     position: absolute;
     width: 20vw;
+    height: 150px;
 
     @keyframes cupidMoove {
       0%   {margin-top: 10px;}
@@ -280,7 +281,7 @@ export const Middle = styled.div`
   justify-content: center;
   align-items: center;
 
-  h6 { 
+  h6 {
     margin: 5%;
     color: #3D3D3D;
     text-overflow: ellipsis;
@@ -336,7 +337,7 @@ export const MiddleButton = styled.a<Props>`
     white-space: 1px;
     letter-spacing: 0px;
   }
-  
+
 `
 
 export const Footer = styled.div`
@@ -377,10 +378,10 @@ export const FooterItems = styled.div`
     #logo {
       width: 300px;
     }
-  
+
   // Laptop
   @media (max-width: 1025px) {
-    #logo { 
+    #logo {
       width: 25vw;
     }
     #barquinho {
@@ -391,20 +392,20 @@ export const FooterItems = styled.div`
   }
 
   @media (max-width: 769px) {
-    #logo { 
+    #logo {
       width: 36vw;
     }
   }
 
   @media (max-width: 426px) {
-    #barquinho { 
+    #barquinho {
       width: 35vw;
     }
-    
+
   }
 
   @media (max-height: 769px) {
-    #logo { 
+    #logo {
       width: 25vh;
     }
     padding-bottom: 40px;

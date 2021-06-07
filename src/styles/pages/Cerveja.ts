@@ -91,7 +91,7 @@ export const CervejariaInfo = styled.div`
     letter-spacing: -1px;
     color: #3d3d3d;
   }
-  span { 
+  span {
     font-size: 0.7em;
     letter-spacing: -1px;
     color: #3d3d3d;
@@ -129,7 +129,7 @@ export const CervejariaInfo = styled.div`
       margin-left: 10px;
       line-height: 20px;
     }
-    span { 
+    span {
       font-size: 0.7em;
       margin-left: 10px;
       letter-spacing: -1px;
@@ -152,6 +152,7 @@ export const ContainerToast = styled.div`
 export const Balloon = styled.div`
   width: max-content;
   height: max-content;
+  z-index: 9999999;
 `
 
 export const Toasty = styled.div`
@@ -178,7 +179,7 @@ export const Toasty1 = styled.div`
   font-size: 100%;
 
 
-  
+
   @media (max-width: 826px) {
     width: 100px;
     height: 80px;
@@ -194,7 +195,7 @@ export const Toasty1 = styled.div`
   @media (max-width: 1401px) {
       right: 30px;
       top: 70px;
-    svg { 
+    svg {
       width: 60px;
     }
   }
@@ -216,7 +217,10 @@ export const Square = styled.div`
   z-index: 30;
 
   @media (max-width: 826px) {
-    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    margin-top: -15px;
+    border-radius: 5px;
   }
 `
 
