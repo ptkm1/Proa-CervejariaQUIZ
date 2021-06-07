@@ -6,7 +6,7 @@ export const CervejasMock2 = [
     details: 'ABV 6,2 IBU 56',
     link: 'https://proacervejaria.goomer.app/detail/624702',
     img:
-      'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
+      'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FCARRIE%20NATION%20.png?alt=media&token=23e52e67-9352-4c10-8627-efc24edac419'
   },
   {
     titulo: 'BARRIL DOBRADO (Double IPA)',
@@ -15,7 +15,7 @@ export const CervejasMock2 = [
     details: 'ABV 7.5% IBU 70',
     link: 'https://proacervejaria.goomer.app/detail/2360203',
     img:
-      'https://www.goomer.app/webmenu/proacervejaria/product/623631/picture/large/210316195121'
+      'https://firebasestorage.googleapis.com/v0/b/landingpage-c01cd.appspot.com/o/Cervejas%2FBARRIL%20DOBRADO%20DIPA.png?alt=media&token=0f63e234-718a-453f-92a0-3be1e66da5c7'
   },
   {
     titulo: 'Iris',
