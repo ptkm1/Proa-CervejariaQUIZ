@@ -56,7 +56,7 @@ export const Informations = styled.div`
   height: 100%;
   margin-bottom: 50px;
 
-  h4 { 
+  h4 {
     color: #E9428C;
   }
 
@@ -68,10 +68,18 @@ export const Informations = styled.div`
 
   span {
     color: #E9428C;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+      font-weight: bold;
   }
 
   h4 {
     width: 80%;
+      font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
+      font-weight: bold;
   }
 
   p {
@@ -81,15 +89,18 @@ export const Informations = styled.div`
     text-align-last: left;
     word-spacing: -2px;
     color: #3D3D3D;
+     font-family: 'Overpass Mono', monospace;
+      white-space: 1px;
+      letter-spacing: 0px;
   }
 
 
   @media (max-width: 1025px) {
     margin-bottom: 20px;
-    h4 { 
+    h4 {
       font-size: 2vw;
     }
-    p { 
+    p {
       font-size: 1.5vw;
     }
   }
@@ -111,7 +122,7 @@ export const Informations = styled.div`
   }
 
   @media (max-height: 769px) {
-    p { 
+    p {
       font-size: 1.7vh;
     }
   }

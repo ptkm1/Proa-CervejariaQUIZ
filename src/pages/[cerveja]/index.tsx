@@ -61,7 +61,7 @@ const CervejaPage: React.FC = () => {
                     <Typography variant="caption">{e.details}</Typography>
                     <a
                     color="primary"
-                    style={{background: 'purple', width: '180px', height: '40px', display: "flex", alignItems: "center", justifyContent: "center"}}
+                    style={{background: 'purple', width: '180px', height: '40px', display: "flex", alignItems: "center", justifyContent: "center", cursor: 'pointer'}}
                     onClick={ () => window.location.href = e.link }
                     >Marcar Encontro!</a>
                   </Info>
